@@ -3,8 +3,6 @@ import CardList from "./CardList";
 import { robots } from './robots';
 import SearchBox from './SearchBox'
 
-
-
 class App extends Component {
     constructor() {
         super()
@@ -15,9 +13,7 @@ class App extends Component {
     }
 
     onSearchChange = (event) => {
-        this.setState({searchfield: event.target.value})
-
-      
+        this.setState({searchfield: event.target.value})      
     }
 
     render() {
